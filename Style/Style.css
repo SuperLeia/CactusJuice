@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+}
+body{
+    background-color: #FFFBBD;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.Head{
+    display: flex;
+    background: #4E6E5D;
+    height: 130px;
+    width: 100%;
+}
+.Head img{
+    margin-left: 30px;
+    height: 130px;
+}
+.Head p{
+    margin-top: 55px;
+    margin-left: -10px;
+    font-size: x-large;
+    transition: 0.25s;
+}
+.Head p:hover{
+    color: white;
+}
+.Head a{
+    text-decoration: none;
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: 15px;
+    outline: none !important;
+    border: 2px solid black;
+}
+.uppe{
+    display: flex;
+    background: #D4E6B5;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    }
+.uppeRight{
+    display: flex;
+    margin-right: 20px;
+    gap: 20px;
+    margin-top: 10px;
+}
+.uppeRight a{
+    text-decoration: none;
+}
+.uppeRight p{
+    transition: 0.25s;
+}
+.uppeRight p:hover{
+    color: white;
+}
+.uppe ul{
+    display: flex;
+    gap: 200px;
+    margin-top: 10px;
+    margin-left: 70px;
+    list-style: none;
+}
+.uppe a{
+    font-size: larger;
+    transition: 0.25s;
+}
+.uppe a:hover{
+    color: white;
+}
+.uppe img{
+    height: 46px;
+    margin-top: -9px;
+}
+p{
+    font-size: larger; 
+}
+.User:hover img{ 
+    background-color: #659c7f;
+    box-shadow: 2px 2px 8px rgb(59, 61, 61);
+}
+.User > img{
+    border-radius: 15px;
+    background-color: #9fad87;
+}
+.Cart:hover img{ 
+    background-color: #659c7f;
+    box-shadow: 2px 2px 8px rgb(59, 61, 61);
+}
+.Cart > img{
+    border-radius: 8px;
+    background-color: #9fad87;
+}
+.HU img{
+    margin: 0;
+    object-position: 100% 0;
+    size: 100%;
+    object-fit: cover;
+}
+footer{
+    display: flex;
+    background: #DB504A;
+    height: 60px;
+    width: 100%;
+}
+footer ul{
+    display: flex;
+    gap: 50px;
+    margin-top: 15px;
+    margin-left: 150px;
+    list-style: none;
+}
+footer a{
+    font-size: larger;
+    transition: 0.25s;
+}
+footer a:hover{
+    color: white;
+}
